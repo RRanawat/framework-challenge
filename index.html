@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bike Shop</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
 </head>
+
 <body class="bg-gray-50 min-h-screen">
     <nav class="p-6 flex justify-between items-center border-b border-gray-100">
         <div class="text-2xl font-light">BIKE SHOP</div>
@@ -15,5 +17,21 @@
             <a href="/" class="hover:text-black transition-colors">Contact</a>
         </div>
     </nav>
+    <footer class="py-20 px-6 bg-black text-white">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="flex-1">
+                <h2 class="text-3xl font-light mb-3">SERVICE</h2>
+                <p class="text-gray-500 mb-8">We provide maintenance and customization services for your bike for free.
+                    Pay once and we'll ensure your ride stays in perfect condition forever.</p>
+                <button
+                    class="inline-block border border-white px-8 py-3 hover:bg-white hover:text-black transition-colors">Book
+                    Service</button>
+            </div>
+            <div class="flex-1">
+                <img src="/images/footer-bike.jpg" alt="Bike" class="w-full h-full object-cover">
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
